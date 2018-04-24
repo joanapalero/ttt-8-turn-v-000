@@ -16,8 +16,8 @@
 #convert input to index
 
 
-if index is valid
-  make the move for index
+#if index is valid
+  #make the move for index
 def move(array, input, value="X")
         array[input] = value
     end
