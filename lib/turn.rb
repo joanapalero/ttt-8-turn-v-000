@@ -2,11 +2,7 @@
     def turn(board)
       puts "Please enter 1-9:"
     end
-#loop
-    loop do
-      puts "Please enter 1-9:"
-      break
-    end
+
 #display_board
     def display_board(board= ["  ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "])
       puts" #{board[0]} | #{board[1]} | #{board[2]} "
@@ -49,4 +45,8 @@
     def move(array, input, value="X")
         array[input] = value
     end
-
+#loop
+    loop do
+      puts "Please enter 1-9:"
+      break
+    end
