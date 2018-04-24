@@ -45,23 +45,3 @@
       turn(board)
     end
       display_board(board)
-
-    def display_board(board)
-      puts " #{board[0]} | #{board[1]} | #{board[2]} "
-      puts "-----------"
-      puts " #{board[3]} | #{board[4]} | #{board[5]} "
-      puts "-----------"
-      puts " #{board[6]} | #{board[7]} | #{board[8]} "
-    end
-    
-    
-    
-#loop
-    counter = 0
-    loop do
-      counter += 1
-      puts "Please enter 1-9 #{counter}:"
-      if counter >= 9
-      break
-    end
-  end
