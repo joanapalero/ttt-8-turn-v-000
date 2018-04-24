@@ -1,9 +1,26 @@
 
 #ask for input
-def input_to_index(input)
-    input.to_i - 1
-    end
+    def input_to_index(input)
+        input.to_i - 1
+        end
+#get input
+    def position_taken?(board, index)
+            if (board[index] == " " || board[index] == "" || board[index] == NIL)
+              return FALSE
+            elsif board[index] == "X" || "O"
+              return TRUE
+            end
+        end
 
+
+
+convert input to index
+if index is valid
+  make the move for index
+  show the board
+else
+  ask for input again until you get a valid input
+end
 
 
 #turn
@@ -27,14 +44,6 @@ def input_to_index(input)
       else
           return FALSE
       end
-    end
-    # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-    def position_taken?(board, index)
-        if (board[index] == " " || board[index] == "" || board[index] == NIL)
-          return FALSE
-        elsif board[index] == "X" || "O"
-          return TRUE
-        end
     end
 
 #move
