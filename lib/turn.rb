@@ -8,6 +8,12 @@
     end
     
 #move
+
+    def move(array, input, value="X")
+        array[input] = value
+    end
+    
+    
     def valid_move?(board, index)
       if (index.between?(0,8) && position_taken?(board, index) == FALSE)
           return TRUE
@@ -48,9 +54,7 @@
     input.to_i - 1
     end
     
-    def move(array, input, value="X")
-        array[input] = value
-    end
+    
 #loop
     counter = 0
     loop do
