@@ -16,9 +16,14 @@
 #convert input to index
 
 
-
 if index is valid
   make the move for index
+def move(array, input, value="X")
+        array[input] = value
+    end
+
+
+
   show the board
 else
   ask for input again until you get a valid input
@@ -59,9 +64,7 @@ end
     
     
     
-    def move(array, input, value="X")
-        array[input] = value
-    end
+    
 #loop
     counter = 0
     loop do
