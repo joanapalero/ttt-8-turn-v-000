@@ -3,6 +3,7 @@
     def input_to_index(input)
         input.to_i - 1
         end
+        
 #get input
     def position_taken?(board, index)
             if (board[index] == " " || board[index] == "" || board[index] == NIL)
@@ -12,9 +13,10 @@
             end
         end
 
+#convert input to index
 
 
-convert input to index
+
 if index is valid
   make the move for index
   show the board
