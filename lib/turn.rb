@@ -26,7 +26,7 @@
       end
     end
     
-  
+#show the board  
     def position_taken?(board, index)
         if (board[index] == " " || board[index] == "" || board[index] == NIL)
           return FALSE
