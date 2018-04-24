@@ -7,8 +7,7 @@
     def 
         input.to_i - 1
         end
-#if index is valid, make the move for index
-  
+
   
 #get input
     def position_taken?(board, index)
