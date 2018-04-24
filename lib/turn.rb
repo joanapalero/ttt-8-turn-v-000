@@ -55,13 +55,4 @@
     end
     
     
-    
-#loop
-    counter = 0
-    loop do
-      counter += 1
-      puts "Please enter 1-9 #{counter}:"
-      if counter >= 9
-      break
-    end
-  end
+
