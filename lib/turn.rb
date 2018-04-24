@@ -45,4 +45,8 @@
     def move(array, input, value="X")
         array[input] = value
     end
-
+#loop
+    loop do
+      puts "Please enter 1-9:"
+      break
+    end
